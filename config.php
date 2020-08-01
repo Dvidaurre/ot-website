@@ -438,11 +438,11 @@
 	$config['max_characters'] = 7;
 
 	// Available character vocation users can choose (specify vocation ID).
-	$config['available_vocations'] = array(1, 2, 3, 4);
+	$config['available_vocations'] = array(0);
 
 	// Available towns (specify town ids, etc: (1, 2, 3); to display 3 town options (town id 1, 2 and 3).
 	// Town IDs are the ones from $config['towns'] array
-	$config['available_towns'] = array(6, 7, 8, 9);
+	$config['available_towns'] = array(6);
 
 	$config['player'] = array(
 		'base' => array(
@@ -454,11 +454,11 @@
 		),
 		// Health, mana cap etc are calculated with $config['vocations_gain'] and 'base' values of $config['player']
 		'create' => array(
-			'level' => 8,
+			'level' => 1,
 			'novocation' => array( // Vocation id 0 (No vocation) special settings
 				'level' => 1,
 				'forceTown' => true,
-				'townId' => 1
+				'townId' => 6
 			),
 			'skills' => array( // See $config['vocations'] for proper vocation names of these IDs
 				// No vocation
@@ -602,7 +602,7 @@
 	// Show advanced inventory data in character profile
 	$config['EQ_shower'] = array(
 		'enabled' => true,
-		'equipment' => true,
+		'equipment' => false,
 		'skills' => true,
 		'outfits' => true,
 		// Player storage (storage_value + outfitId)
