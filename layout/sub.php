@@ -19,10 +19,30 @@
 
 $subpages = array(
 	// website.com/sub.php?page=blank
-	'blank' => array(
+	'news' => array(
 		// layout/sub/blank.php
-		'file' => 'blank.php',
+		'file' => 'index.php',
 		// false means don't run this file instead of the regular file at website.com/blank.php
+		'override' => false
+	),
+	'loggedin' => array(
+		'file' => 'loggedin.php',
+		'override' => false
+	),
+	'login' => array(
+		'file' => 'login.php',
+		'override' => false
+	),
+	'recover' => array(
+		'file' => 'recover.php',
+		'override' => false
+	),
+	'charactersearch' => array(
+		'file' => 'charactersearch.php',
+		'override' => false
+	),
+	'highscore' => array(
+		'file' => 'highscore.php',
 		'override' => false
 	),
 	'houses' => array(
@@ -33,43 +53,5 @@ $subpages = array(
 		'file' => 'downloads.php',
 		'override' => false
 	),
-	'charactersearch' => array(
-		'file' => 'charactersearch.php',
-		'override' => false
-	),
-	'myaccount' => array(
-		'file' => 'myaccount.php',
-		'override' => true
-	),
-	'createcharacter' => array(
-		'file' => 'createcharacter.php',
-		'override' => true
-	),
-	'changepassword' => array(
-		'file' => 'changepassword.php',
-		'override' => true
-	),
-	'news' => array(
-		'file' => 'index.php',
-		'override' => true
-	),
-	'settings' => array(
-		'file' => 'settings.php',
-		'override' => true
-	),
-	'characterprofile' => array(
-		'file' => 'characterprofile.php',
-		'override' => true
-	),
-	'onlinelist' => array(
-		'file' => 'onlinelist.php',
-		'override' => true
-	),
-	'highscores' => array(
-		'file' => 'highscores.php',
-		'override' => false
-	)
-	
-	
 );
 ?>

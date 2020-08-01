@@ -124,8 +124,8 @@ if (isset($_GET['success']) && empty($_GET['success'])) {
 				<!-- Available genders to select from when creating character -->
 				Gender:<br>
 				<select name="selected_gender">
-				<option value="1">Male(boy)</option>
-				<option value="0">Female(girl)</option>
+				<option value="1">Male</option>
+				<option value="0">Female</option>
 				</select>
 			</li>
 			<?php
