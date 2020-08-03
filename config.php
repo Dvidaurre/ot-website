@@ -985,7 +985,7 @@
 			'itemid' => 2160, // item to get in-game
 			'count' => 5, // Stack number (5x itemid)
 			'description' => "5 x Crystal coin", // Description shown on website
-			'points' => 100, // How many points this offer costs
+			'points' => 2, // How many points this offer costs
 		),
 		2 => array(
 			'type' => 1,
@@ -1041,7 +1041,7 @@
 			'itemid' => 32, // Mount ID
 			'count' => 1,
 			'description' => "Gnarlhound mount",
-			'points' => 20,
+			'points' => 2,
 		),
 		10 => array(
 			'type' => 6,

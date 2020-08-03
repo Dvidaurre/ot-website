@@ -2,7 +2,7 @@ local talkaction = TalkAction("!shop")
 
 function talkaction.onSay(player)
 	local storage = 54073 -- Make sure to select non-used storage. This is used to prevent SQL load attacks.
-	local cooldown = 15 -- in seconds.
+	local cooldown = 0 -- in seconds.
 
 	if player:getStorageValue(storage) <= os.time() then
 		player:setStorageValue(storage, os.time() + cooldown)
