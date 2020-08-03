@@ -260,14 +260,6 @@
 					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
 				</div>
 			</a>
-			<a href='market.php'>
-				<div id='submenu_guilds' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
-					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
-					<div id='ActiveSubmenuItemIcon_guilds' class='ActiveSubmenuItemIcon' style='background-image:url(layout/images/global/menu/icon-activesubmenu.gif);'></div>
-					<div id='ActiveSubmenuItemLabel_guilds' class='SubmenuitemLabel'>Item Market</div>
-					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
-				</div>
-			</a>
 		</div>
 	</div>
 	<div id='library' class='menuitem'>

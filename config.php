@@ -864,9 +864,9 @@
 
 	// Write your paypal address here, and what currency you want to receive money in.
 	$config['paypal'] = array(
-		'enabled' => false,
-		'email' => 'edit@me.com', // Example: paypal@mail.com
-		'currency' => 'EUR',
+		'enabled' => true,
+		'email' => 'divudarres@udd.cl', // Example: paypal@mail.com
+		'currency' => 'USD',
 		'points_per_currency' => 10, // 1 currency = ? points? [ONLY used to calculate bonuses]
 		'success' => "http://".$_SERVER['HTTP_HOST']."/success.php",
 		'failed' => "http://".$_SERVER['HTTP_HOST']."/failed.php",
@@ -938,10 +938,10 @@
 	////////////
 	// If useDB is set to true, player can shop in-game as well using Znote Lua shop system plugin.
 	$config['shop'] = array(
-		'enabled' => false,
+		'enabled' => true,
 		'loginToView' => false, // Do user need to login to see the shop offers?
 		'enableShopConfirmation' => true, // Verify that user wants to buy with popup
-		'useDB' => false, // Fetch offers from database, or the below config array
+		'useDB' => true, // Fetch offers from database, or the below config array
 		'showImage' => true,
 		'imageServer' => 'items.znote.eu',
 		'imageType' => 'gif',
@@ -1030,13 +1030,27 @@
 			'points' => 20,
 		),
 		8 => array(
+			'type' => 5,
+			'itemid' => [885, 884], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Arena Champion with addons",
+			'points' => 1,
+		),
+		9 => array(
 			'type' => 6,
 			'itemid' => 32, // Mount ID
 			'count' => 1,
 			'description' => "Gnarlhound mount",
 			'points' => 20,
 		),
-		9 => array(
+		10 => array(
+			'type' => 6,
+			'itemid' => 100, // Mount ID
+			'count' => 1,
+			'description' => "Test Mount mount",
+			'points' => 20,
+		),
+		11 => array(
 			'type' => 6,
 			'itemid' => 17,
 			'count' => 1,
