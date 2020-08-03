@@ -1125,53 +1125,123 @@
 		),
 		20 => array(
 			'type' => 5,
-			'itemid' => [852, 853], // Outfit ID
-			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
-			'description' => "Winter Warden",
-			'points' => 150,
-		),
-		21 => array(
-			'type' => 5,
-			'itemid' => [852, 853], // Outfit ID
-			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
-			'description' => "Winter Warden",
-			'points' => 150,
-		),
-		22 => array(
-			'type' => 5,
 			'itemid' => [749, 750], // Outfit ID
 			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
 			'description' => "Sea Dog",
-			'points' => 50,
+			'points' => 100,
 		),
-		23 => array(
+		21 => array(
 			'type' => 5,
 			'itemid' => [733, 732], // Outfit ID
 			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
 			'description' => "Seaweaver",
-			'points' => 100,
+			'points' => 50,
 		),
 
 		30 => array(
 			'type' => 6,
-			'itemid' => 32, // Mount ID
+			'itemid' => 4, // Mount ID
 			'count' => 1,
-			'description' => "Gnarlhound mount",
-			'points' => 2,
+			'description' => "Blacksheep mount",
+			'points' => 50,
 		),
 		31 => array(
 			'type' => 6,
-			'itemid' => 100, // Mount ID
+			'itemid' => 8, // Mount ID
 			'count' => 1,
-			'description' => "Test Mount mount",
-			'points' => 20,
+			'description' => "Tin Lizzard",
+			'points' => 50,
+		),
+		32 => array(
+			'type' => 6,
+			'itemid' => 15,
+			'count' => 1,
+			'description' => "Uni Wheel",
+			'points' => 50,
 		),
 		33 => array(
 			'type' => 6,
 			'itemid' => 17,
 			'count' => 1,
-			'description' => "War horse",
-			'points' => 20,
+			'description' => "War Horse",
+			'points' => 50,
+		),
+		43 => array(
+			'type' => 6,
+			'itemid' => 23,
+			'count' => 1,
+			'description' => "Armoured War Horse",
+			'points' => 70,
+		),
+		34 => array(
+			'type' => 6,
+			'itemid' => 34,
+			'count' => 1,
+			'description' => "Stell Beak",
+			'points' => 50,
+		),
+		35 => array(
+			'type' => 6,
+			'itemid' => 39,
+			'count' => 1,
+			'description' => "Hell Grip",
+			'points' => 150,
+		),
+		36 => array(
+			'type' => 6,
+			'itemid' => 43,
+			'count' => 1,
+			'description' => "Walker",
+			'points' => 50,
+		),
+		37 => array(
+			'type' => 6,
+			'itemid' => 51,
+			'count' => 1,
+			'description' => "Tempest",
+			'points' => 150,
+		),
+		38 => array(
+			'type' => 6,
+			'itemid' => 53,
+			'count' => 1,
+			'description' => "Doombringer",
+			'points' => 100,
+		),
+		39 => array(
+			'type' => 6,
+			'itemid' => 59,
+			'count' => 1,
+			'description' => "Golden Dragonfly",
+			'points' => 100,
+		),
+		40 => array(
+			'type' => 6,
+			'itemid' => 78,
+			'count' => 1,
+			'description' => "Sea Devil",
+			'points' => 150,
+		),
+		41 => array(
+			'type' => 6,
+			'itemid' => 93,
+			'count' => 1,
+			'description' => "Leaf Scuttler",
+			'points' => 100,
+		),
+		42=> array(
+			'type' => 6,
+			'itemid' => 94,
+			'count' => 1,
+			'description' => "Sparkion",
+			'points' => 150,
+		),
+		44 => array(
+			'type' => 6,
+			'itemid' => 46,
+			'count' => 1,
+			'description' => "Death Crawler",
+			'points' => 100,
 		),
 	);
 
