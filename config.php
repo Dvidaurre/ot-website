@@ -1024,33 +1024,42 @@
 		),
 		7 => array(
 			'type' => 5,
-			'itemid' => [132, 140], // Outfit ID
+			'itemid' => [433, 432], // Outfit ID
 			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
-			'description' => "Noble outfit with both addons",
-			'points' => 20,
+			'description' => "Elementalist Outfit",
+			'points' => 50,
 		),
 		8 => array(
 			'type' => 5,
-			'itemid' => [885, 884], // Outfit ID
+			'itemid' => [466, 465], // Outfit ID
 			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
-			'description' => "Arena Champion with addons",
-			'points' => 1,
+			'description' => "Insectoid Outfit",
+			'points' => 50,
 		),
+
 		9 => array(
+			'type' => 5,
+			'itemid' => [472, 471], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Entrepreneur Outfit",
+			'points' => 50,
+		),
+
+		30 => array(
 			'type' => 6,
 			'itemid' => 32, // Mount ID
 			'count' => 1,
 			'description' => "Gnarlhound mount",
 			'points' => 2,
 		),
-		10 => array(
+		31 => array(
 			'type' => 6,
 			'itemid' => 100, // Mount ID
 			'count' => 1,
 			'description' => "Test Mount mount",
 			'points' => 20,
 		),
-		11 => array(
+		33 => array(
 			'type' => 6,
 			'itemid' => 17,
 			'count' => 1,

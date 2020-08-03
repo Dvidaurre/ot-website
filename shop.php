@@ -306,42 +306,6 @@ foreach ($shop_list as $key => $offer) {
 			<?php endif; ?>
 		</tr>
 
-		<tr class="special">
-			<td><?php echo $offers['description']; ?></td>
-			<?php if ($config['show_outfits']['shop']):?>
-				<td><?php foreach($offers['itemid'] as $outfitId): ?>
-					<img src="<?php echo $config['show_outfits']['imageServer']; ?>?id=<?php echo $outfitId; ?>&addons=<?php echo $offers['count']; ?>&head=<?php echo rand(1, 132); ?>&body=<?php echo rand(1, 132); ?>&legs=<?php echo rand(1, 132); ?>&feet=<?php echo rand(1, 132); ?>" alt="img">
-				<?php endforeach; ?></td>
-			<?php endif; ?>
-			<td><?php echo $offers['points']; ?></td>
-			<?php if ($loggedin === true): ?>
-			<td>
-				<form action="" method="POST">
-					<input type="hidden" name="buy" value="<?php echo (int)$key; ?>">
-					<input type="hidden" name="session" value="<?php echo time(); ?>">
-					<input type="submit" value="  PURCHASE  "  class="needconfirmation" data-item-name="<?php echo $offers['description']; ?>" data-item-cost="<?php echo $offers['points']; ?>">
-				</form>
-			</td>
-			<?php endif; ?>
-		</tr>
-		<tr class="special">
-			<td><?php echo $offers['description']; ?></td>
-			<?php if ($config['show_outfits']['shop']):?>
-				<td><?php foreach($offers['itemid'] as $outfitId): ?>
-					<img src="<?php echo $config['show_outfits']['imageServer']; ?>?id=<?php echo $outfitId; ?>&addons=<?php echo $offers['count']; ?>&head=<?php echo rand(1, 135); ?>&body=<?php echo rand(1, 135); ?>&legs=<?php echo rand(1, 135); ?>&feet=<?php echo rand(1, 135); ?>" alt="img">
-				<?php endforeach; ?></td>
-			<?php endif; ?>
-			<td><?php echo $offers['points']; ?></td>
-			<?php if ($loggedin === true): ?>
-			<td>
-				<form action="" method="POST">
-					<input type="hidden" name="buy" value="<?php echo (int)$key; ?>">
-					<input type="hidden" name="session" value="<?php echo time(); ?>">
-					<input type="submit" value="  PURCHASE  "  class="needconfirmation" data-item-name="<?php echo $offers['description']; ?>" data-item-cost="<?php echo $offers['points']; ?>">
-				</form>
-			</td>
-			<?php endif; ?>
-		</tr>
 	<?php endforeach; ?>
 </table>
 <?php endif; ?>
