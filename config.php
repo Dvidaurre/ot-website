@@ -1042,7 +1042,114 @@
 			'itemid' => [472, 471], // Outfit ID
 			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
 			'description' => "Entrepreneur Outfit",
+			'points' => 100,
+		),
+
+		10 => array(
+			'type' => 5,
+			'itemid' => [514, 516], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Soil Guardian",
 			'points' => 50,
+		),
+		11 => array(
+			'type' => 5,
+			'itemid' => [575, 574], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Cave Explorer",
+			'points' => 50,
+		),
+		12 => array(
+			'type' => 5,
+			'itemid' => [578, 577], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Dream Warden",
+			'points' => 50,
+		),
+		13 => array(
+			'type' => 5,
+			'itemid' => [610, 618], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Glooth Engineer",
+			'points' => 100,
+		),
+
+		14 => array(
+			'type' => 5,
+			'itemid' => [635, 634], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Conjurer",
+			'points' => 150,
+		),
+		15 => array(
+			'type' => 5,
+			'itemid' => [636, 637], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Beastmaster",
+			'points' => 100,
+		),
+		16 => array(
+			'type' => 5,
+			'itemid' => [664, 665], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Chaos Acolyte",
+			'points' => 150,
+		),
+		17 => array(
+			'type' => 5,
+			'itemid' => [683, 684], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Ranger",
+			'points' => 150,
+		),
+		18 => array(
+			'type' => 5,
+			'itemid' => [696, 697], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Puppeteer",
+			'points' => 150,
+		),
+		18 => array(
+			'type' => 5,
+			'itemid' => [845, 846], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Rift Warrior",
+			'points' => 150,
+		),
+		19 => array(
+			'type' => 5,
+			'itemid' => [852, 853], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Winter Warden",
+			'points' => 150,
+		),
+		20 => array(
+			'type' => 5,
+			'itemid' => [852, 853], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Winter Warden",
+			'points' => 150,
+		),
+		21 => array(
+			'type' => 5,
+			'itemid' => [852, 853], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Winter Warden",
+			'points' => 150,
+		),
+		22 => array(
+			'type' => 5,
+			'itemid' => [749, 750], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Sea Dog",
+			'points' => 50,
+		),
+		23 => array(
+			'type' => 5,
+			'itemid' => [733, 732], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Seaweaver",
+			'points' => 100,
 		),
 
 		30 => array(
