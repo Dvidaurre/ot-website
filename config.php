@@ -983,17 +983,17 @@
 
 		1 => array(
 			'type' => 1,
-			'itemid' => 11401	,
+			'itemid' => 6104	,
 			'count' => 1,
-			'description' => "Gold Converter: transform gold coins into platinum",
+			'description' => "Gold Converter: transform gold coins into platinum & platinum into crystal",
 			'points' => 10,
 		),
 		2 => array(
 			'type' => 1,
 			'itemid' => 2332,
 			'count' => 1,
-			'description' => "Instant Rashid",
-			'points' => 10,
+			'description' => "Rashid Horn: Gives you instant access to Rashid",
+			'points' => 50,
 		),
 		3 => array(
 			'type' => 2,
