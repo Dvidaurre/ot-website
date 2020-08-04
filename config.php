@@ -980,27 +980,7 @@
 		type 8+ = custom coded stuff
 	*/
 	$config['shop_offers'] = array(
-		1 => array(
-			'type' => 1,
-			'itemid' => 2160, // item to get in-game
-			'count' => 5, // Stack number (5x itemid)
-			'description' => "5 x Crystal coin", // Description shown on website
-			'points' => 2, // How many points this offer costs
-		),
-		2 => array(
-			'type' => 1,
-			'itemid' => 2392,
-			'count' => 1,
-			'description' => "Fire sword",
-			'points' => 10,
-		),
-		3 => array(
-			'type' => 2,
-			'itemid' => 12466, // Item to display on page
-			'count' => 7, // Days of premium account
-			'description' => "Premium membership",
-			'points' => 25,
-		),
+
 		4 => array(
 			'type' => 3,
 			'itemid' => 12666, // Item to display on page
