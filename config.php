@@ -981,6 +981,27 @@
 	*/
 	$config['shop_offers'] = array(
 
+		1 => array(
+			'type' => 1,
+			'itemid' => 11401	,
+			'count' => 1,
+			'description' => "Gold Converter: transform gold coins into platinum",
+			'points' => 10,
+		),
+		2 => array(
+			'type' => 1,
+			'itemid' => 2332,
+			'count' => 1,
+			'description' => "Instant Rashid",
+			'points' => 10,
+		),
+		3 => array(
+			'type' => 2,
+			'itemid' => 12466, // Item to display on page
+			'count' => 7, // Days of premium account
+			'description' => "Premium membership",
+			'points' => 25,
+		),
 		4 => array(
 			'type' => 3,
 			'itemid' => 12666, // Item to display on page
