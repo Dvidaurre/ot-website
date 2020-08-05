@@ -985,8 +985,8 @@
 			'type' => 1,
 			'itemid' => 6104	,
 			'count' => 1,
-			'description' => "Gold Converter: transform gold coins into platinum & platinum into crystal",
-			'points' => 10,
+			'description' => "Gold Converter: Transform gold coins into Platinum & Platinum into crystal",
+			'points' => 50,
 		),
 		2 => array(
 			'type' => 1,
@@ -994,13 +994,6 @@
 			'count' => 1,
 			'description' => "Rashid Horn: Gives you instant access to Rashid",
 			'points' => 50,
-		),
-		3 => array(
-			'type' => 2,
-			'itemid' => 12466, // Item to display on page
-			'count' => 7, // Days of premium account
-			'description' => "Premium membership",
-			'points' => 25,
 		),
 		4 => array(
 			'type' => 3,
@@ -1038,12 +1031,27 @@
 			'points' => 50,
 		),
 
-		9 => array(
+		21 => array(
 			'type' => 5,
-			'itemid' => [472, 471], // Outfit ID
+			'itemid' => [733, 732], // Outfit ID
 			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
-			'description' => "Entrepreneur Outfit",
-			'points' => 100,
+			'description' => "Seaweaver",
+			'points' => 50,
+		),
+
+		30 => array(
+			'type' => 6,
+			'itemid' => 4, // Mount ID
+			'count' => 1,
+			'description' => "Blacksheep mount",
+			'points' => 50,
+		),
+		31 => array(
+			'type' => 6,
+			'itemid' => 8, // Mount ID
+			'count' => 1,
+			'description' => "Tin Lizzard",
+			'points' => 50,
 		),
 
 		10 => array(
@@ -1067,11 +1075,95 @@
 			'description' => "Dream Warden",
 			'points' => 50,
 		),
+		32 => array(
+			'type' => 6,
+			'itemid' => 15,
+			'count' => 1,
+			'description' => "Uni Wheel",
+			'points' => 50,
+		),
+		33 => array(
+			'type' => 6,
+			'itemid' => 17,
+			'count' => 1,
+			'description' => "War Horse",
+			'points' => 50,
+		),
+		34 => array(
+			'type' => 6,
+			'itemid' => 34,
+			'count' => 1,
+			'description' => "Stell Beak",
+			'points' => 50,
+		),
+		36 => array(
+			'type' => 6,
+			'itemid' => 43,
+			'count' => 1,
+			'description' => "Walker",
+			'points' => 50,
+		),
+		43 => array(
+			'type' => 6,
+			'itemid' => 23,
+			'count' => 1,
+			'description' => "Armoured War Horse",
+			'points' => 70,
+		),
 		13 => array(
 			'type' => 5,
 			'itemid' => [610, 618], // Outfit ID
 			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
 			'description' => "Glooth Engineer",
+			'points' => 100,
+		),
+		9 => array(
+			'type' => 5,
+			'itemid' => [472, 471], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Entrepreneur Outfit",
+			'points' => 100,
+		),
+		15 => array(
+			'type' => 5,
+			'itemid' => [636, 637], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Beastmaster",
+			'points' => 100,
+		),
+		38 => array(
+			'type' => 6,
+			'itemid' => 53,
+			'count' => 1,
+			'description' => "Doombringer",
+			'points' => 100,
+		),
+		39 => array(
+			'type' => 6,
+			'itemid' => 59,
+			'count' => 1,
+			'description' => "Golden Dragonfly",
+			'points' => 100,
+		),
+		44 => array(
+			'type' => 6,
+			'itemid' => 46,
+			'count' => 1,
+			'description' => "Death Crawler",
+			'points' => 100,
+		),
+		41 => array(
+			'type' => 6,
+			'itemid' => 93,
+			'count' => 1,
+			'description' => "Leaf Scuttler",
+			'points' => 100,
+		),
+		20 => array(
+			'type' => 5,
+			'itemid' => [749, 750], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Sea Dog",
 			'points' => 100,
 		),
 
@@ -1081,13 +1173,6 @@
 			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
 			'description' => "Conjurer",
 			'points' => 150,
-		),
-		15 => array(
-			'type' => 5,
-			'itemid' => [636, 637], // Outfit ID
-			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
-			'description' => "Beastmaster",
-			'points' => 100,
 		),
 		16 => array(
 			'type' => 5,
@@ -1124,76 +1209,13 @@
 			'description' => "Winter Warden",
 			'points' => 150,
 		),
-		20 => array(
-			'type' => 5,
-			'itemid' => [749, 750], // Outfit ID
-			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
-			'description' => "Sea Dog",
-			'points' => 100,
-		),
-		21 => array(
-			'type' => 5,
-			'itemid' => [733, 732], // Outfit ID
-			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
-			'description' => "Seaweaver",
-			'points' => 50,
-		),
 
-		30 => array(
-			'type' => 6,
-			'itemid' => 4, // Mount ID
-			'count' => 1,
-			'description' => "Blacksheep mount",
-			'points' => 50,
-		),
-		31 => array(
-			'type' => 6,
-			'itemid' => 8, // Mount ID
-			'count' => 1,
-			'description' => "Tin Lizzard",
-			'points' => 50,
-		),
-		32 => array(
-			'type' => 6,
-			'itemid' => 15,
-			'count' => 1,
-			'description' => "Uni Wheel",
-			'points' => 50,
-		),
-		33 => array(
-			'type' => 6,
-			'itemid' => 17,
-			'count' => 1,
-			'description' => "War Horse",
-			'points' => 50,
-		),
-		43 => array(
-			'type' => 6,
-			'itemid' => 23,
-			'count' => 1,
-			'description' => "Armoured War Horse",
-			'points' => 70,
-		),
-		34 => array(
-			'type' => 6,
-			'itemid' => 34,
-			'count' => 1,
-			'description' => "Stell Beak",
-			'points' => 50,
-		),
 		35 => array(
 			'type' => 6,
 			'itemid' => 39,
 			'count' => 1,
 			'description' => "Hell Grip",
 			'points' => 150,
-		),
-		36 => array(
-			'type' => 6,
-			'itemid' => 43,
-			'count' => 1,
-			'description' => "Walker",
-			'points' => 50,
 		),
 		37 => array(
 			'type' => 6,
@@ -1202,20 +1224,6 @@
 			'description' => "Tempest",
 			'points' => 150,
 		),
-		38 => array(
-			'type' => 6,
-			'itemid' => 53,
-			'count' => 1,
-			'description' => "Doombringer",
-			'points' => 100,
-		),
-		39 => array(
-			'type' => 6,
-			'itemid' => 59,
-			'count' => 1,
-			'description' => "Golden Dragonfly",
-			'points' => 100,
-		),
 		40 => array(
 			'type' => 6,
 			'itemid' => 78,
@@ -1223,26 +1231,12 @@
 			'description' => "Sea Devil",
 			'points' => 150,
 		),
-		41 => array(
-			'type' => 6,
-			'itemid' => 93,
-			'count' => 1,
-			'description' => "Leaf Scuttler",
-			'points' => 100,
-		),
 		42=> array(
 			'type' => 6,
 			'itemid' => 94,
 			'count' => 1,
 			'description' => "Sparkion",
 			'points' => 150,
-		),
-		44 => array(
-			'type' => 6,
-			'itemid' => 46,
-			'count' => 1,
-			'description' => "Death Crawler",
-			'points' => 100,
 		),
 	);
 
