@@ -618,14 +618,14 @@
 	$config['free_sex_change'] = false;
 
 	// Do you need to have premium account to create a guild?
-	$config['guild_require_premium'] = true;
+	$config['guild_require_premium'] = false;
 
 	// There is a TFS 1.3 bug related to guild nicks
 	// https://github.com/otland/forgottenserver/issues/2561
 	// So if your using TFS 1.x, you might need to disable guild nicks until the crash has been fixed.
 	$config['guild_allow_nicknames'] = true;
 
-	$config['guildwar_enabled'] = false;
+	$config['guildwar_enabled'] = true;
 
 	// Use htaccess rewrite? (basically this makes website.com/username work instead of website.com/characterprofile.php?name=username
 	// Linux users needs to enable mod_rewrite php extention to make it work properly, so set it to false if your lost and using Linux.
