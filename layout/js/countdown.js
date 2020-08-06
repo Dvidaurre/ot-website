@@ -1,6 +1,6 @@
 function countDown(elid, seconds, msg){
 	// Set the date we're counting down to
-	var countDownDate = new Date();
+	var countDownDate = new Date(10);
 	countDownDate.setSeconds(countDownDate.getSeconds() + seconds);
 	var countDownDate = countDownDate.getTime();
 

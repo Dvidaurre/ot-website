@@ -549,7 +549,7 @@
 	$config['news_per_page'] = 5;
 
 	// Enable or disable changelog ticker in news page.
-	$config['UseChangelogTicker'] = true;
+	$config['UseChangelogTicker'] = false;
 
 	// Highscore configuration
 	$config['highscore'] = array(
@@ -660,7 +660,7 @@
 
 	// WARNING! Account names written here will have admin access to web page!
 	$config['page_admin_access'] = array(
-		'firstaccountName',
+		'zeelexl',
 		'secondaccountName',
 	);
 
