@@ -23,7 +23,7 @@ $subpages = array(
 		// layout/sub/blank.php
 		'file' => 'index.php',
 		// false means don't run this file instead of the regular file at website.com/blank.php
-		'override' => false
+		'override' => true
 	),
 	'loggedin' => array(
 		'file' => 'loggedin.php',

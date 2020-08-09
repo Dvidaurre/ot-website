@@ -55,7 +55,7 @@
 		)
 	);
 
-	$countDown = "Apr 5, 2019 15:37:25";
+	$countDown = "Aug 15, 2020 15:37:25";
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

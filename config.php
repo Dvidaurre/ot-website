@@ -18,9 +18,9 @@
 	// As far as I know, OTX is based on TFS_03, so make sure TFS version is configured TFS_03
 	$config['CustomVersion'] = false;
 
-	$config['site_title'] = 'Znote AAC';
+	$config['site_title'] = 'Perfect Tibia';
 	$config['site_title_context'] = 'Because open communities are good communities. :3';
-	$config['site_url'] = "http://demo.znote.eu";
+	$config['site_url'] = "";
 
 	// Path to server folder without "\" (or "/") at the end, ex: C:\Users\Username\Documents\GitHub\forgottenserver
 	$config['server_path'] = 'C:\Users\diego\Desktop\RepoTest';
@@ -549,7 +549,7 @@
 	$config['news_per_page'] = 5;
 
 	// Enable or disable changelog ticker in news page.
-	$config['UseChangelogTicker'] = true;
+	$config['UseChangelogTicker'] = false;
 
 	// Highscore configuration
 	$config['highscore'] = array(
@@ -618,14 +618,14 @@
 	$config['free_sex_change'] = false;
 
 	// Do you need to have premium account to create a guild?
-	$config['guild_require_premium'] = true;
+	$config['guild_require_premium'] = false;
 
 	// There is a TFS 1.3 bug related to guild nicks
 	// https://github.com/otland/forgottenserver/issues/2561
 	// So if your using TFS 1.x, you might need to disable guild nicks until the crash has been fixed.
-	$config['guild_allow_nicknames'] = true;
+	$config['guild_allow_nicknames'] = false;
 
-	$config['guildwar_enabled'] = false;
+	$config['guildwar_enabled'] = true;
 
 	// Use htaccess rewrite? (basically this makes website.com/username work instead of website.com/characterprofile.php?name=username
 	// Linux users needs to enable mod_rewrite php extention to make it work properly, so set it to false if your lost and using Linux.
@@ -660,7 +660,7 @@
 
 	// WARNING! Account names written here will have admin access to web page!
 	$config['page_admin_access'] = array(
-		'firstaccountName',
+		'zeelexl',
 		'secondaccountName',
 	);
 
@@ -864,21 +864,21 @@
 
 	// Write your paypal address here, and what currency you want to receive money in.
 	$config['paypal'] = array(
-		'enabled' => false,
-		'email' => 'edit@me.com', // Example: paypal@mail.com
-		'currency' => 'EUR',
+		'enabled' => true,
+		'email' => 'dvidaurres@udd.cl', // Example: paypal@mail.com
+		'currency' => 'USD',
 		'points_per_currency' => 10, // 1 currency = ? points? [ONLY used to calculate bonuses]
 		'success' => "http://".$_SERVER['HTTP_HOST']."/success.php",
 		'failed' => "http://".$_SERVER['HTTP_HOST']."/failed.php",
 		'ipn' => "http://".$_SERVER['HTTP_HOST']."/ipn.php",
-		'showBonus' => true,
+		'showBonus' => false,
 	);
 
 	// Configure the "buy now" buttons prices, first write price, then how many points you get.
 	// Giving some bonus points for higher donations will tempt users to donate more.
 	$config['paypal_prices'] = array(
 	//	price => points,
-		1 => 45, // -10% bonus
+		5 => 50, // -10% bonus
 		10 => 100, // 0% bonus
 		15 => 165, // +10% bonus
 		20 => 240, // +20% bonus
@@ -938,10 +938,10 @@
 	////////////
 	// If useDB is set to true, player can shop in-game as well using Znote Lua shop system plugin.
 	$config['shop'] = array(
-		'enabled' => false,
+		'enabled' => true,
 		'loginToView' => false, // Do user need to login to see the shop offers?
 		'enableShopConfirmation' => true, // Verify that user wants to buy with popup
-		'useDB' => false, // Fetch offers from database, or the below config array
+		'useDB' => true, // Fetch offers from database, or the below config array
 		'showImage' => true,
 		'imageServer' => 'items.znote.eu',
 		'imageType' => 'gif',
@@ -980,26 +980,20 @@
 		type 8+ = custom coded stuff
 	*/
 	$config['shop_offers'] = array(
+
 		1 => array(
 			'type' => 1,
-			'itemid' => 2160, // item to get in-game
-			'count' => 5, // Stack number (5x itemid)
-			'description' => "5 x Crystal coin", // Description shown on website
-			'points' => 100, // How many points this offer costs
+			'itemid' => 6104	,
+			'count' => 1,
+			'description' => "Gold Converter: Transform gold coins into Platinum & Platinum into crystal",
+			'points' => 50,
 		),
 		2 => array(
 			'type' => 1,
-			'itemid' => 2392,
+			'itemid' => 2332,
 			'count' => 1,
-			'description' => "Fire sword",
-			'points' => 10,
-		),
-		3 => array(
-			'type' => 2,
-			'itemid' => 12466, // Item to display on page
-			'count' => 7, // Days of premium account
-			'description' => "Premium membership",
-			'points' => 25,
+			'description' => "Rashid Horn: Gives you instant access to Rashid",
+			'points' => 50,
 		),
 		4 => array(
 			'type' => 3,
@@ -1024,24 +1018,225 @@
 		),
 		7 => array(
 			'type' => 5,
-			'itemid' => [132, 140], // Outfit ID
+			'itemid' => [433, 432], // Outfit ID
 			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
-			'description' => "Noble outfit with both addons",
-			'points' => 20,
+			'description' => "Elementalist Outfit",
+			'points' => 50,
 		),
 		8 => array(
-			'type' => 6,
-			'itemid' => 32, // Mount ID
-			'count' => 1,
-			'description' => "Gnarlhound mount",
-			'points' => 20,
+			'type' => 5,
+			'itemid' => [466, 465], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Insectoid Outfit",
+			'points' => 50,
 		),
-		9 => array(
+
+		21 => array(
+			'type' => 5,
+			'itemid' => [733, 732], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Seaweaver",
+			'points' => 50,
+		),
+
+		30 => array(
+			'type' => 6,
+			'itemid' => 4, // Mount ID
+			'count' => 1,
+			'description' => "Blacksheep mount",
+			'points' => 50,
+		),
+		31 => array(
+			'type' => 6,
+			'itemid' => 8, // Mount ID
+			'count' => 1,
+			'description' => "Tin Lizzard",
+			'points' => 50,
+		),
+
+		10 => array(
+			'type' => 5,
+			'itemid' => [514, 516], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Soil Guardian",
+			'points' => 50,
+		),
+		11 => array(
+			'type' => 5,
+			'itemid' => [575, 574], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Cave Explorer",
+			'points' => 50,
+		),
+		12 => array(
+			'type' => 5,
+			'itemid' => [578, 577], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Dream Warden",
+			'points' => 50,
+		),
+		32 => array(
+			'type' => 6,
+			'itemid' => 15,
+			'count' => 1,
+			'description' => "Uni Wheel",
+			'points' => 50,
+		),
+		33 => array(
 			'type' => 6,
 			'itemid' => 17,
 			'count' => 1,
-			'description' => "War horse",
-			'points' => 20,
+			'description' => "War Horse",
+			'points' => 50,
+		),
+		34 => array(
+			'type' => 6,
+			'itemid' => 34,
+			'count' => 1,
+			'description' => "Stell Beak",
+			'points' => 50,
+		),
+		36 => array(
+			'type' => 6,
+			'itemid' => 43,
+			'count' => 1,
+			'description' => "Walker",
+			'points' => 50,
+		),
+		43 => array(
+			'type' => 6,
+			'itemid' => 23,
+			'count' => 1,
+			'description' => "Armoured War Horse",
+			'points' => 70,
+		),
+		13 => array(
+			'type' => 5,
+			'itemid' => [610, 618], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Glooth Engineer",
+			'points' => 100,
+		),
+		9 => array(
+			'type' => 5,
+			'itemid' => [472, 471], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Entrepreneur Outfit",
+			'points' => 100,
+		),
+		15 => array(
+			'type' => 5,
+			'itemid' => [636, 637], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Beastmaster",
+			'points' => 100,
+		),
+		38 => array(
+			'type' => 6,
+			'itemid' => 53,
+			'count' => 1,
+			'description' => "Doombringer",
+			'points' => 100,
+		),
+		39 => array(
+			'type' => 6,
+			'itemid' => 59,
+			'count' => 1,
+			'description' => "Golden Dragonfly",
+			'points' => 100,
+		),
+		44 => array(
+			'type' => 6,
+			'itemid' => 46,
+			'count' => 1,
+			'description' => "Death Crawler",
+			'points' => 100,
+		),
+		41 => array(
+			'type' => 6,
+			'itemid' => 93,
+			'count' => 1,
+			'description' => "Leaf Scuttler",
+			'points' => 100,
+		),
+		20 => array(
+			'type' => 5,
+			'itemid' => [749, 750], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Sea Dog",
+			'points' => 100,
+		),
+
+		14 => array(
+			'type' => 5,
+			'itemid' => [635, 634], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Conjurer",
+			'points' => 150,
+		),
+		16 => array(
+			'type' => 5,
+			'itemid' => [664, 665], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Chaos Acolyte",
+			'points' => 150,
+		),
+		17 => array(
+			'type' => 5,
+			'itemid' => [683, 684], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Ranger",
+			'points' => 150,
+		),
+		18 => array(
+			'type' => 5,
+			'itemid' => [696, 697], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Puppeteer",
+			'points' => 150,
+		),
+		18 => array(
+			'type' => 5,
+			'itemid' => [845, 846], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Rift Warrior",
+			'points' => 150,
+		),
+		19 => array(
+			'type' => 5,
+			'itemid' => [852, 853], // Outfit ID
+			'count' => 3, // Addon 0 = none, 1 = first, 2 = second, 3 = both
+			'description' => "Winter Warden",
+			'points' => 150,
+		),
+
+		35 => array(
+			'type' => 6,
+			'itemid' => 39,
+			'count' => 1,
+			'description' => "Hell Grip",
+			'points' => 150,
+		),
+		37 => array(
+			'type' => 6,
+			'itemid' => 51,
+			'count' => 1,
+			'description' => "Tempest",
+			'points' => 150,
+		),
+		40 => array(
+			'type' => 6,
+			'itemid' => 78,
+			'count' => 1,
+			'description' => "Sea Devil",
+			'points' => 150,
+		),
+		42=> array(
+			'type' => 6,
+			'itemid' => 94,
+			'count' => 1,
+			'description' => "Sparkion",
+			'points' => 150,
 		),
 	);
 

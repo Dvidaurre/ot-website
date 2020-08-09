@@ -305,6 +305,7 @@ foreach ($shop_list as $key => $offer) {
 			</td>
 			<?php endif; ?>
 		</tr>
+
 	<?php endforeach; ?>
 </table>
 <?php endif; ?>

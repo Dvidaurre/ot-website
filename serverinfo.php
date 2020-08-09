@@ -231,45 +231,62 @@ $stages = false;
 	</table>
 <?php endif; ?>
 
+<table class="table tbl-hover">
+		<tbody>
+			<tr class="yellow">
+				<td colspan="2">Stages</td>
+			</tr>
+			<tr>
+				<td>1 - 8</td>
+				<td> x 5 </td>
+			</tr>
+			<tr>
+				<td>8 - 20</td>
+				<td> x 4 </td>
+			</tr>
+			<tr>
+				<td>20 - 150</td>
+				<td> x 3 </td>
+			</tr>
+			<tr>
+				<td>150 - 250</td>
+				<td> x 2 </td>
+			</tr>
+			<tr>
+				<td>250 +</td>
+				<td> x 1 </td>
+			</tr>
+		</tbody>
+	</table>
+
 <?php if ($luaConfig): ?>
 	<table class="table tbl-hover">
 		<tbody>
 			<tr class="yellow">
-				<?php if (!$stages): ?>
-					<td>Experience rate</td>
-				<?php endif; ?>
 				<td>Skills rate</td>
 				<td>Magic rate</td>
 				<td>Loot rate</td>
 			</tr>
 			<tr>
-				<?php if (!$stages): ?>
-					<td><?php echo $luaConfig['rateExp']; ?></td>
-				<?php endif; ?>
-				<td><?php echo $luaConfig['rateSkill']; ?></td>
-				<td><?php echo $luaConfig['rateMagic']; ?></td>
-				<td><?php echo $luaConfig['rateLoot']; ?></td>
+				<td>1</td>
+				<td>1</td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
 
-	<h2>Miscellaneous information</h2>
 	<table class="table tbl-hover">
 		<tbody>
 			<tr class="yellow">
 				<td colspan="2">Connection information</td>
 			</tr>
 			<tr>
-				<td>Client</td>
-				<td><?php echo ($config['client'] / 100); ?></td>
+				<td>Custom Client</td>
+				<td>Version 8.0 - 8.1 ||  Graphics of version 10.x </td>
 			</tr>
 			<tr>
-				<td>IP</td>
-				<td><?php echo $_SERVER['SERVER_NAME']; ?></td>
-			</tr>
-			<tr>
-				<td>Port</td>
-				<td><?php echo $luaConfig['loginProtocolPort']; ?></td>
+				<td>Datacenter</td>
+				<td>France EU - Sao Paulo Brazil </td>
 			</tr>
 		</tbody>
 	</table>
@@ -281,28 +298,17 @@ $stages = false;
 			</tr>
 			<tr>
 				<td>World type</td>
-				<td><?php echo $luaConfig['worldType']; ?></td>
-			</tr>
-			<tr>
-				<td>Hotkey aimbot</td>
-				<td><?php echo toYesNo($luaConfig['hotkeyAimbotEnabled']); ?></td>
+				<td>Pvp - Skull system with exp reward on higher level kills</td>
 			</tr>
 			<tr>
 				<td>Protection level</td>
-				<td><?php echo $luaConfig['protectionLevel']; ?></td>
+				<td>15</td>
 			</tr>
 			<tr>
 				<td>Kills to red skull</td>
-				<td><?php echo $luaConfig['killsToRedSkull']; ?></td>
+				<td> 6 </td>
 			</tr>
-			<tr>
-				<td>Kills to black skull</td>
-				<td><?php echo $luaConfig['killsToBlackSkull']; ?></td>
-			</tr>
-			<tr>
-				<td>Remove rune charges</td>
-				<td><?php echo toYesNo($luaConfig['removeChargesFromRunes']); ?></td>
-			</tr>
+
 			<?php if (isset($luaConfig['timeToDecreaseFrags'])): ?>
 				<tr>
 					<td>Time to decrease frags</td>
@@ -313,25 +319,50 @@ $stages = false;
 				<td>Experience by killing players</td>
 				<td><?php echo toYesNo($luaConfig['experienceByKillingPlayers']); ?></td>
 			</tr>
-
-			<?php if ($luaConfig['experienceByKillingPlayers']): ?>
-				<tr>
-					<td>Experience gain kill threshold:</td>
-					<td><?php echo $luaConfig['expFromPlayersLevelRange']; ?>% of your level</td>
-				</tr>
-			<?php endif; ?>
-
 			<tr>
-				<td>White skull duration</td>
-				<td><?php echo toDuration($luaConfig['whiteSkullTime']); ?></td>
+				<td> Stair jump exhaust</td>
+				<td>No</td>
 			</tr>
 			<tr>
-				<td>Protection zone lock (non lethal attack)</td>
-				<td><?php echo toDuration($luaConfig['pzLocked']); ?></td>
+				<td>Base Cooldown</td>
+				<td>1.5 seconds</td>
 			</tr>
-			<tr>
-				<td>Stair jump exhaust</td>
-				<td><?php echo toDuration($luaConfig['stairJumpExhaustion']); ?></td>
+		</tbody>
+	</table>
+
+	<h2>Game information</h2>
+
+	<table class="table tbl-hover">
+		<tbody>
+			<tr class="yellow">
+				<td colspan="2">Important Information</td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> <b> All 8.0 content is just as it was in real tibia. </b> Fully working quests, addons and items that mimic how tibia was back in the old days. We use the newer graphics and sprites </td>
+			</tr>
+			<tr class="">
+			<td colspan="2"> Old spell formulas for runes. UHs are the main healing currency. Sd using paladins || Explo using knights as in 8.0</td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Potion system working as it was back in 8.0. No overpowered potions</td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Maker System enabled to help players create runes. No soul point system implemented. <b> No Rune selling NPC </b> </td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Fully working Auction House System with runes as the main market driving factor </td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Elements are enabled, although the spell system mimmics 8.0 functionality. No automatically aimed spells for Sorcerers and Druids. Old formulas apply and there is no shared cooldown between spells</td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Removed weapon level requirement for knights and reworked elemental weapons to be actually useful </td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Online trainers system enabled that makers can use as well. Offline trainers are less effective than online trainers </td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Reworked mounting system || Mounts are hard to obtain in game </td>
 			</tr>
 		</tbody>
 	</table>
@@ -339,56 +370,56 @@ $stages = false;
 	<table class="table tbl-hover">
 		<tbody>
 			<tr class="yellow">
-				<td colspan="2">Other information</td>
+				<td colspan="2">Gameplay and Improvements</td>
 			</tr>
-			<tr>
-				<td>Free premium</td>
-				<td><?php echo toYesNo($luaConfig['freePremium']); ?></td>
+			<tr class="">
+				<td colspan="2">8.0 Content with improvements</td>
 			</tr>
-			<tr>
-				<td>House rent period</td>
-				<td><?php echo $luaConfig['houseRentPeriod']; ?></td>
+			<tr class="">
+				<td colspan="2"> Fully working POI | Inquisition | Annihilator | Dreamer's Challenge and other quests </td>
 			</tr>
-			<tr>
-				<td>House SQM price</td>
-				<td><?php echo $luaConfig['housePriceEachSQM']; ?> gp</td>
+			<tr class="">
+				<td colspan="2"> Kill Task NPC on Thais next to Frodo </td>
 			</tr>
-			<tr>
-				<td>AFK kickout</td>
-				<td><?php echo toDuration($luaConfig['kickIdlePlayerAfterMinutes'] * 60 * 1000); ?></td>
+			<tr class="">
+				<td colspan="2"> Outfit quests work as they did back in 8.0 You can obtain all the outfits you don't start with </td>
 			</tr>
-			<tr>
-				<td>One player online per account</td>
-				<td><?php echo toYesNo($luaConfig['stairJumpExhaustion']); ?></td>
+			<tr class="">
+				<td colspan="2"> No Yalahar | Krailos | Oramond  or game breaking content</td>
 			</tr>
-			<tr>
-				<td>Max players online server limit</td>
-				<td><?php echo ($luaConfig['maxPlayers'] > 0) ? $luaConfig['maxPlayers'] : 'Unlimited'; ?></td>
+			<tr class="">
+				<td colspan="2"> Rashid inhabits Thais's boat</td>
 			</tr>
-			<tr>
-				<td>Allow outfit change</td>
-				<td><?php echo toYesNo($luaConfig['allowChangeOutfit']); ?></td>
+			<tr class="">
+				<td colspan="2"> Fully working creature product buying NPCs </td>
 			</tr>
-			<?php if (isset($luaConfig['staminaSystem'])): ?>
-				<tr>
-					<td>Stamina system</td>
-					<td><?php echo toYesNo($luaConfig['staminaSystem']); ?></td>
-				</tr>
-			<?php endif; ?>
-			<?php if (isset($luaConfig['premiumToCreateMarketOffer'])): ?>
-				<tr>
-					<td>Premium to add items to market</td>
-					<td><?php echo toYesNo($luaConfig['premiumToCreateMarketOffer']); ?></td>
-				</tr>
-			<?php endif; ?>
-			<?php if (isset($luaConfig['marketOfferDuration'])): ?>
-				<tr>
-					<td>Market offer duration</td>
-					<td><?php echo toDuration($luaConfig['marketOfferDuration'] * 1000); ?></td>
-				</tr>
-			<?php endif; ?>
+			<tr class="">
+				<td colspan="2"> Extended Spawns on main continent. All 10.0 + spawns on main content were kept </td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Some rare addon quest items are a very rare drop of normal creatures in order to make some addons more accessible. ( For instance, Necromancers drop soul stone on a very rare chance, Pirates drop pirate hat addon items and so on) </td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Custom quests for some outfits and mounts </td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Custom extended spawns with beautiful and professional designs </td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Anti Cave Bot system where players will be encouraged and rewarded to hunt down botters </td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Daily quests and custom systems that help to spice up the game</td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> Enabled Guild war system</td>
+			</tr>
+			<tr class="">
+				<td colspan="2"> <b>Player Driven content release. </b> We listen to your players, we will release content, patches & updates based on players opinions  and feedback</td>
+			</tr>
 		</tbody>
 	</table>
+
 <?php else: ?>
 	<p>The server administrator has yet to import server information to this page.</p>
 <?php endif;

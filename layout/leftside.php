@@ -77,6 +77,14 @@
 					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
 				</div>
 			</a>
+			<a href='serverinfo.php'>
+				<div id='submenu_latestnews' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
+					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_latestnews' class='ActiveSubmenuItemIcon' style='background-image:url(layout/images/global/menu/icon-activesubmenu.gif);'></div>
+					<div id='ActiveSubmenuItemLabel_latestnews' class='SubmenuitemLabel'>Server Info</div>
+					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
+				</div>
+			</a>
 			<a href='changelog.php'>
 				<div id='submenu_latestnews' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
 					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
@@ -210,14 +218,6 @@
 					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
 				</div>
 			</a>
-			<a href='sub.php?page=houses'>
-				<div id='submenu_houses' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
-					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
-					<div id='ActiveSubmenuItemIcon_houses' class='ActiveSubmenuItemIcon' style='background-image:url(layout/images/global/menu/icon-activesubmenu.gif);'></div>
-					<div id='ActiveSubmenuItemLabel_houses' class='SubmenuitemLabel'>Houses</div>
-					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
-				</div>
-			</a>
 			<a href='support.php'>
 				<div id='submenu_downloadclient' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
 					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
@@ -257,14 +257,6 @@
 					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
 					<div id='ActiveSubmenuItemIcon_guilds' class='ActiveSubmenuItemIcon' style='background-image:url(layout/images/global/menu/icon-activesubmenu.gif);'></div>
 					<div id='ActiveSubmenuItemLabel_guilds' class='SubmenuitemLabel'>Guild Wars</div>
-					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
-				</div>
-			</a>
-			<a href='market.php'>
-				<div id='submenu_guilds' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
-					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
-					<div id='ActiveSubmenuItemIcon_guilds' class='ActiveSubmenuItemIcon' style='background-image:url(layout/images/global/menu/icon-activesubmenu.gif);'></div>
-					<div id='ActiveSubmenuItemLabel_guilds' class='SubmenuitemLabel'>Item Market</div>
 					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
 				</div>
 			</a>
