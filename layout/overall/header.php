@@ -8,6 +8,7 @@
 		<link rel="shortcut icon" href="layout/images/global/general/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="layout/images/global/general/favicon.ico" type="image/x-icon">
 		<link href="layout/styles/basic.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="layout/style.css">
 		<link href="layout/styles/news.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript" src="layout/javascripts/generic.js"></script>
 		<script type='text/javascript'>
@@ -39,7 +40,7 @@
 		<script type="text/javascript" src="layout/javascripts/initialize.js"></script>
 	</head>
 	<body onBeforeUnLoad="SaveMenu();" onUnload="SaveMenu();" onLoad="SetFormFocus()">
-	<div class="">
+	<div class="top-bar">
 		<a href="register.php">
 			<?php
 			$date = 'Aug 14  2020 16:00:00 CET';
@@ -79,7 +80,7 @@
 				var countdown = document.getElementById('countdown');
 				countdown.innerHTML = '';
 				if (days) {
-					countdown.innerHTML += ' <span style="color:black;">' + days + '</span> DAYS ';
+					countdown.innerHTML += ' <span style="color:yellow;">' + days + ' DAYS </span>';
 				}
 				countdown.innerHTML += ' <span style="color:white;">' + hours+ '</span> HOURS';
 				countdown.innerHTML += ' <span style="color:white;">' + minutes+ '</span> MINUTES';
