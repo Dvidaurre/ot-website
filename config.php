@@ -18,9 +18,9 @@
 	// As far as I know, OTX is based on TFS_03, so make sure TFS version is configured TFS_03
 	$config['CustomVersion'] = false;
 
-	$config['site_title'] = 'Znote AAC';
+	$config['site_title'] = 'Perfect Tibia';
 	$config['site_title_context'] = 'Because open communities are good communities. :3';
-	$config['site_url'] = "http://demo.znote.eu";
+	$config['site_url'] = "";
 
 	// Path to server folder without "\" (or "/") at the end, ex: C:\Users\Username\Documents\GitHub\forgottenserver
 	$config['server_path'] = 'C:\Users\diego\Desktop\RepoTest';
@@ -623,7 +623,7 @@
 	// There is a TFS 1.3 bug related to guild nicks
 	// https://github.com/otland/forgottenserver/issues/2561
 	// So if your using TFS 1.x, you might need to disable guild nicks until the crash has been fixed.
-	$config['guild_allow_nicknames'] = true;
+	$config['guild_allow_nicknames'] = false;
 
 	$config['guildwar_enabled'] = true;
 
@@ -865,20 +865,20 @@
 	// Write your paypal address here, and what currency you want to receive money in.
 	$config['paypal'] = array(
 		'enabled' => true,
-		'email' => 'divudarres@udd.cl', // Example: paypal@mail.com
+		'email' => 'dvidaurres@udd.cl', // Example: paypal@mail.com
 		'currency' => 'USD',
 		'points_per_currency' => 10, // 1 currency = ? points? [ONLY used to calculate bonuses]
 		'success' => "http://".$_SERVER['HTTP_HOST']."/success.php",
 		'failed' => "http://".$_SERVER['HTTP_HOST']."/failed.php",
 		'ipn' => "http://".$_SERVER['HTTP_HOST']."/ipn.php",
-		'showBonus' => true,
+		'showBonus' => false,
 	);
 
 	// Configure the "buy now" buttons prices, first write price, then how many points you get.
 	// Giving some bonus points for higher donations will tempt users to donate more.
 	$config['paypal_prices'] = array(
 	//	price => points,
-		1 => 45, // -10% bonus
+		5 => 50, // -10% bonus
 		10 => 100, // 0% bonus
 		15 => 165, // +10% bonus
 		20 => 240, // +20% bonus

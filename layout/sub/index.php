@@ -70,6 +70,8 @@ if ($news) {
 	
 } else {
 	?>
+	
+
 	<h1>Welcome to Perfect Tibia </h1>
 	<h4> We realized that long ago, Tibia made continuous wrong decisions. Cipsoft failed to improve the gameplay, and made tibia easy and less meaningful with every update they released</h4>
 	<h4> However not everything was terrible, some sprites, spells, mechanics and quests were valuable. We realized that despite the fact Cipsoft "ruined " the game we used to love, they also made some valuable improvements in terms of graphics and content

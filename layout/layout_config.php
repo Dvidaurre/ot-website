@@ -1,7 +1,7 @@
 <?php
 	// Set enabled to false to remove the widget
 	$follow = array(
-		"enabled" => false,
+		"enabled" => true,
 		"twitter" => "https://www.twitter.com/",
 		"facebook" => "https://www.facebook.com/",
 		"youtube" => "https://www.youtube.com/",
@@ -9,7 +9,7 @@
 	);
 
 	// Use same date format when changing: yyyy-mm-dd hh:mm
-	$countDown = "2020-08-10 01:00";
+	$countDown = "2020-09-10 01:00";
 	
 	// Hide countdown after 1 day (24 hours) after countDown
 	$countDown_hide = 1 * 24 * 60 * 60;
