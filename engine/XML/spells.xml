@@ -443,17 +443,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<!--<conjure name="Lightest Magic Missile" words="adori dis min vis" lvl="1" mana="5"   conjureId="2287" conjureCount="10" cooldown="1500" groupcooldown="1500" needlearn="0" function="conjureRune">
-		<vocation name="None" />
-	</conjure>-->
-	<conjure name="Lightest Missile" words="adori infir vis" lvl="1" mana="6"   conjureId="23723" conjureCount="10" cooldown="1500" groupcooldown="1500" needlearn="0" function="conjureRune">
- 		<vocation name="Sorcerer" />
- 		<vocation name="Druid" />
- 		<vocation name="Paladin" />
- 		<vocation name="Master Sorcerer" />
- 		<vocation name="Elder Druid" />
- 		<vocation name="Royal Paladin" />
- 	</conjure>
+
 	<conjure name="Fire Field" words="adevo grav flam" lvl="9" mana="90"   conjureId="2301" conjureCount="3" cooldown="1500" groupcooldown="1500" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
