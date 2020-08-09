@@ -92,7 +92,7 @@
 			Perfect Tibia will start in: <span style="color: white;" id="countdown">loading...</span>
 			<?php
 			} else {
-				echo 'Perfect Tibia e 8.0 Will Start In: <span style="color: black;">SERVER STARTED!</span>';
+				echo 'Perfect Tibia  8.0 Will Start In: <span style="color: black;">SERVER STARTED!</span>';
 			}
 			?>
 		</a>

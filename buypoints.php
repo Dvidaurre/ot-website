@@ -24,7 +24,7 @@ if ($paypal['enabled']) {
 		<?php
 		foreach ($prices as $price => $points) {
 		echo '<tr class="special">';
-		echo '<td>'. $price .'('. $paypal['currency'] .')</td>';
+		echo '<td>'. $price .'$ '. $paypal['currency'] .'</td>';
 		echo '<td>'. $points .'</td>';
 		if ($paypal['showBonus']) echo '<td>'. calculate_discount(($paypal['points_per_currency'] * $price), $points) .' bonus</td>';
 		?>
