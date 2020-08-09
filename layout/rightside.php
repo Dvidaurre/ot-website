@@ -22,12 +22,5 @@
 		</a>
 		<div class="Bottom" style="background-image:url(http://static.tibia.com/images/global/general/box-bottom.gif);"></div>
 	</div>
-	<div id="CurrentPollBox" class="Themebox" style="background-image:url(layout/images/global/themeboxes/current-poll/currentpollbox.gif);">
-		<div id="CurrentPollText">Most powerful vocation?</div>
-		<a class="ThemeboxButton" href="{$path}" onMouseOver="MouseOverBigButton(this);" onMouseOut="MouseOutBigButton(this);" style="background-image:url(layout/images/global/buttons/sbutton.gif);">
-			<div class="BigButtonOver" style="background-image:url(layout/images/global/buttons/sbutton_over.gif);"></div>
-			<div class="ButtonText" style="background-image:url(layout/images/global/buttons/_sbutton_votenow.gif);"></div>
-		</a>
-		<div class="Bottom" style="background-image:url(layout/images/global/general/box-bottom.gif);"></div>
-	</div>
+
 </div>
