@@ -20,7 +20,7 @@
 
 	$config['site_title'] = 'Perfect Tibia';
 	$config['site_title_context'] = 'Because open communities are good communities. :3';
-	$config['site_url'] = "localhost";
+	$config['site_url'] = "";
 
 	// Path to server folder without "\" (or "/") at the end, ex: C:\Users\Username\Documents\GitHub\forgottenserver
 	$config['server_path'] = 'C:\Users\diego\Desktop\RepoTest';
