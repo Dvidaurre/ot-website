@@ -209,7 +209,6 @@ if ($spells) {
 				<td>Words</td>
 				<td>Level</td>
 				<td>Mana</td>
-				<td>Soul</td>
 				<td>Charges</td>
 				<td>Image</td>
 				<td>Vocations</td>
@@ -220,7 +219,6 @@ if ($spells) {
 				<td><?php echo $spell['words']; ?></td>
 				<td><?php echo $spell['lvl']; ?></td>
 				<td><?php echo $spell['mana']; ?></td>
-				<td><?php echo $spell['soul']; ?></td>
 				<td><?php echo $spell['conjureCount']; ?></td>
 				<td><img src="<?php echo $itemServer.$spell['conjureId'].'.gif'; ?>" alt="Rune image"></td>
 				<td><?php
