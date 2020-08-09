@@ -77,6 +77,14 @@
 					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
 				</div>
 			</a>
+			<a href='serverinfo.php'>
+				<div id='submenu_latestnews' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
+					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
+					<div id='ActiveSubmenuItemIcon_latestnews' class='ActiveSubmenuItemIcon' style='background-image:url(layout/images/global/menu/icon-activesubmenu.gif);'></div>
+					<div id='ActiveSubmenuItemLabel_latestnews' class='SubmenuitemLabel'>Server Info</div>
+					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
+				</div>
+			</a>
 			<a href='changelog.php'>
 				<div id='submenu_latestnews' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
 					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
@@ -207,14 +215,6 @@
 					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
 					<div id='ActiveSubmenuItemIcon_spells' class='ActiveSubmenuItemIcon' style='background-image:url(layout/images/global/menu/icon-activesubmenu.gif);'></div>
 					<div id='ActiveSubmenuItemLabel_spells' class='SubmenuitemLabel'>Kills</div>
-					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
-				</div>
-			</a>
-			<a href='sub.php?page=houses'>
-				<div id='submenu_houses' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>
-					<div class='LeftChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
-					<div id='ActiveSubmenuItemIcon_houses' class='ActiveSubmenuItemIcon' style='background-image:url(layout/images/global/menu/icon-activesubmenu.gif);'></div>
-					<div id='ActiveSubmenuItemLabel_houses' class='SubmenuitemLabel'>Houses</div>
 					<div class='RightChain' style='background-image:url(layout/images/global/general/chain.gif);'></div>
 				</div>
 			</a>
