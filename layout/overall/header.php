@@ -43,7 +43,7 @@
 	<div class="top-bar">
 		<a href="register.php">
 			<?php
-			$date = 'Aug 14  2020 16:00:00 CET';
+			$date = 'Aug 15  2020 16:00:00 CET';
 			$exp_date = strtotime($date);
 			$now = time();
 
