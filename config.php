@@ -459,7 +459,7 @@
 			'novocation' => array( // Vocation id 0 (No vocation) special settings
 				'level' => 1,
 				'forceTown' => true,
-				'townId' => 1
+				'townId' => 6
 			),
 			'skills' => array( // See $config['vocations'] for proper vocation names of these IDs
 				// No vocation
