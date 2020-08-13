@@ -19,11 +19,11 @@
 	$config['CustomVersion'] = false;
 
 	$config['site_title'] = 'Perfect Tibia';
-	$config['site_title_context'] = 'Because open communities are good communities. :3';
+	$config['site_title_context'] = '';
 	$config['site_url'] = "";
 
 	// Path to server folder without "\" (or "/") at the end, ex: C:\Users\Username\Documents\GitHub\forgottenserver
-	$config['server_path'] = 'C:\Users\diego\Desktop\RepoTest';
+	$config['server_path'] = '/home/ubuntu/server';
 
 	// ------------------------ \\
 	// MYSQL CONNECTION DETAILS \\
@@ -33,13 +33,13 @@
 	$config['sqlUser'] = 'root';
 
 	// phpmyadmin password for OT server:
-	$config['sqlPassword'] = '';
+	$config['sqlPassword'] = 'jcaster2';
 
 	// The database name to connect to. (This is usually same as username).
-	$config['sqlDatabase'] = 'testathos';
+	$config['sqlDatabase'] = 'jakstoby';
 
 	// Hostname is usually localhost or 127.0.0.1.
-	$config['sqlHost'] = '127.0.0.1';
+	$config['sqlHost'] = 'localhost';
 
 	// QR code authenticator Only works with TFS 1.2+
 	$config['twoFactorAuthenticator'] = false;
@@ -446,10 +446,10 @@
 
 	$config['player'] = array(
 		'base' => array(
-			'level' => 8,
-			'health' => 185,
-			'mana' => 90,
-			'cap' => 470,
+			'level' => 1,
+			'health' => 150,
+			'mana' => 0,
+			'cap' => 410,
 			'soul' => 100
 		),
 		// Health, mana cap etc are calculated with $config['vocations_gain'] and 'base' values of $config['player']
@@ -660,8 +660,8 @@
 
 	// WARNING! Account names written here will have admin access to web page!
 	$config['page_admin_access'] = array(
-		'zeelexl',
-		'secondaccountName',
+		'zeelex',
+		'656249',
 	);
 
 	// Built-in FORUM
