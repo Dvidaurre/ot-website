@@ -19,7 +19,7 @@
 	$config['CustomVersion'] = false;
 
 	$config['site_title'] = 'Perfect Tibia';
-	$config['site_title_context'] = 'Because open communities are good communities. :3';
+	$config['site_title_context'] = '';
 	$config['site_url'] = "";
 
 	// Path to server folder without "\" (or "/") at the end, ex: C:\Users\Username\Documents\GitHub\forgottenserver
@@ -447,10 +447,10 @@
 
 	$config['player'] = array(
 		'base' => array(
-			'level' => 8,
-			'health' => 185,
-			'mana' => 90,
-			'cap' => 470,
+			'level' => 1,
+			'health' => 150,
+			'mana' => 0,
+			'cap' => 410,
 			'soul' => 100
 		),
 		// Health, mana cap etc are calculated with $config['vocations_gain'] and 'base' values of $config['player']
@@ -661,8 +661,8 @@
 
 	// WARNING! Account names written here will have admin access to web page!
 	$config['page_admin_access'] = array(
-		'zeelexl',
-		'secondaccountName',
+		'zeelex',
+		'656249',
 	);
 
 	// Built-in FORUM
